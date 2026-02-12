@@ -39,3 +39,8 @@ console.log(typeof "gaurav")
 console.log(typeof age)
 console.log(typeof null)
 console.log(typeof undefined)
+
+/* To know the type of the variable,i.e., whether a variable is number,string,boolean,etc. typeof is
+used. It is necessary to know the type of variable beacause when we work in backend we do not know 
+what type of value is coming from frontend(number,string). Like 33 can be both a number(33) and a 
+string("33"). */
