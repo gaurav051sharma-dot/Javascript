@@ -72,5 +72,80 @@ let booleanIsLoggedIn4=Boolean(isLoggedIn4)
 
 let num=33
 let stringNum=String(num)
-console.log(stringNum)
-console.log(typeof stringNum)
+// console.log(stringNum)
+// console.log(typeof stringNum)
+
+// *******************Operations***********************
+
+let value=3
+let negValue=-value
+// console.log(negValue)
+
+/*
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**2)   // 2^2
+console.log(2**4)   // 2^4
+console.log(2/3)
+console.log(2%3)
+console.log(5.678/2.33)
+*/
+
+let str1="hello"
+let str2="gaurav"
+let str3=str1+" "+str2
+// console.log(str3)
+
+// All the below code are confusing and no need to write confusing code. A code should be easily readable.
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+// console.log(3 + 4 % 5 * 6)  
+/*
+4 % 5 = 4 (3 + 4 * 6) 
+4 * 6 = 24 (3 + 24) 
+3 + 24 =27
+*/ 
+
+// console.log(true)
+// console.log(+true)       // Converts true to its number equivalent,i.e, 1
+// console.log(+"")         // Converts ""(empty string) to its number equivalent,i.e., 0
+
+let num1,num2,num3
+
+num1 = num2 = num3 = 2+2
+// console.log(num1)
+// console.log(num2)
+// console.log(num3)
+
+// Increment and Decrement Operators
+
+let a,b
+
+console.log("Postfix Increment")
+a=3
+b=a++
+console.log("a= "+ a)
+console.log("b= "+ b)
+
+console.log("Prefix Increment")
+a=3
+b=++a
+console.log("a= "+ a)
+console.log("b= "+ b)
+
+console.log("Postfix Decrement")
+a=3
+b=a--
+console.log("a= "+a)
+console.log("b= "+b)
+
+console.log("Prefix Decrement")
+a=3
+b=--a
+console.log("a= "+a)
+console.log("b= "+b)
