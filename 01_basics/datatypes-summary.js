@@ -71,16 +71,16 @@ let myObj={
 // Functions
 
 const myFunction=function(){
-    console.log("Hello World")
+    //console.log("Hello World")
 }
 
-console.log(typeof bigNumber)
-console.log(typeof outsideTemp)
-console.log(typeof scoreValue)
-console.log(typeof anotherId)
-console.log(typeof myFunction)
-console.log(typeof myObj)
-console.log(typeof heroes)
+// console.log(typeof bigNumber)
+// console.log(typeof outsideTemp)
+// console.log(typeof scoreValue)
+// console.log(typeof anotherId)
+// console.log(typeof myFunction)
+// console.log(typeof myObj)
+// console.log(typeof heroes)
 
 /*
 Return type of variables in JavaScript
@@ -98,3 +98,26 @@ Return type of variables in JavaScript
    Object --> object
    Function --> function (object function)
 */
+
+// ****************Memory in Javascript******************
+
+// Stack (Primitive datatypes)
+// Heap (Non-Primitive datatypes)
+
+let myYoutubeName="gauravsharmadotcom"
+
+let anotherName=myYoutubeName
+anotherName="chaiaurcode"
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="gaurav@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
