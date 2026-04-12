@@ -36,8 +36,28 @@ const newStringOne="      gaurav      "
 // console.log(name.replaceAll('a','*'))
 // console.log(name)
 
-console.log(name.includes("ur"))
-console.log(name.includes("ab"))
+// console.log(name.includes("ur"))
+// console.log(name.includes("ab"))
 
 const string1="gaurav sharma is a good boy"
-console.log(string1.split(' '))
+// console.log(string1.split(' '))
+
+// String Functions in JS
+
+const fullName="gaurav sharma"
+
+// console.log(fullName.length)
+// console.log(fullName.charAt(10))
+// console.log(fullName.indexOf('a'))
+// console.log(fullName.lastIndexOf("a"))
+// console.log(fullName.replace("a","*"))
+// console.log(fullName.replaceAll("a","*"))
+// console.log(fullName.startsWith("d"))
+// console.log(fullName.endsWith("a"))
+// console.log(fullName.split("a"))
+// console.log(fullName.substring(3))
+// console.log(fullName.substring(3))
+// console.log(fullName.toUpperCase())
+
+const num=100
+console.log(num.toString()+" hello")
