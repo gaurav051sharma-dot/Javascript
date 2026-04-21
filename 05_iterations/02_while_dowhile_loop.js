@@ -14,6 +14,8 @@ while(j < myArray.length){
     j=j+1    // j+=1   j++
 }
 
+// Do-While Loop
+
 let k=1
 do {
     // console.log(`Value of k is ${k}`)
