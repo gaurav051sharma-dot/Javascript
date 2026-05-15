@@ -49,8 +49,26 @@ for(let i=1; i<=20; i++){
 
 for(let i=1; i<=20; i++){
     if(i == 5){
-        console.log("Detected 5")
+        // console.log("Detected 5")
         continue
     }
-    console.log(`Value of i is ${i}`)
+    // console.log(`Value of i is ${i}`)
+}
+
+for(let i = 1; i <= 5; i++){
+    // console.log(`Outer loop is ${i}`)
+    for(let j=1; j<=5; j++){
+        if(j == 3)
+        break
+        // console.log(`Value of inner loop is ${j}`)
+    }
+}
+
+for(let i = 1; i <= 5; i++){
+    if(i == 3)
+    continue
+    console.log(`Outer loop is ${i}`)
+    for(let j=1; j<=5; j++){
+        console.log(`Value of inner loop is ${j}`)
+    }
 }

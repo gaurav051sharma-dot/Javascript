@@ -4,7 +4,7 @@ const myObject={
     js: "Javascript",
     cpp: 'C++',
     rb: 'Ruby',
-    swift: "Swift by Apple"
+    swift: "Swift by Apple",
 }
 
 for (const key in myObject) {
@@ -27,6 +27,11 @@ for(const key in programming){
 
 for(const key in programming){
     // console.log(programming[key])
+}
+
+const myStr="Hello  World!"
+for(const val in myStr){
+    // console.log(myStr[val])
 }
 
 // for in loop does not iterate over maps. In simple words, we cannot 

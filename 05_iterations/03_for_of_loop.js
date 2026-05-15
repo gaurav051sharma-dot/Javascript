@@ -26,7 +26,7 @@ map.set("IN","INDIA")
 // console.log(map)
 
 for (const key of map) {
-    console.log(key)
+    // console.log(key)
 }
 
 for(const [key,value] of map){
@@ -37,8 +37,8 @@ for(const [key] of map){
     // console.log(key)
 }
 
-for(const [,value] of map){
-    // console.log(value)
+for(const [,num] of map){
+    // console.log(num)
 }
 
 // for of loop does not iterate over objects. In simple words, we cannot 
